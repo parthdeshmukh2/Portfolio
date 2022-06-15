@@ -3,7 +3,7 @@ export const socialsData = {
   linkedIn: "https://www.linkedin.com/in/parth-deshmukh-7438b2175/",
   instagram: "https://www.instagram.com/parthdeshmukh99/",
   // codepen: "https://codepen.io/rcyou/pen/QEObEZ",
-  //twitter: "https://twitter.com/Balrampatidar64",
+  twitter: "https://twitter.com/Parthdeshmukh99",
   medium: "https://medium.com/@parthdeshmukh99",
   //stackOverflow: "https://stackoverflow.com/users/",
   gitlab: "https://gitlab.com/",

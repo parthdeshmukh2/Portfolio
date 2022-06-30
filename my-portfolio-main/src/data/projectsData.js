@@ -4,6 +4,7 @@ import Tanishq from "../assets/svg/projects/Tanishq.png";
 import Weather from "../assets/svg/projects/Weather.png"
 import Hotstar from "../assets/svg/projects/Hotstar.png"
 import Netflix from "../assets/svg/projects/Netflix.png"
+import Crypto from "../assets/svg/projects/CryptoApp.png"
 
 export const projectsData = [
   // {
@@ -16,6 +17,17 @@ export const projectsData = [
   //   demo: "",
   //   image: Tata_1mg,
   // },
+  {
+    id: 6,
+    projectName: "Crypto-App",
+    projectDesc:
+      "Cryptoverse is a cryptocurrency details app, where a user can find details of any cryptocurrency traded in the exchange. As well as user gets updates via news.",
+    tags: ["Reactjs", "Redux", "Ant Design", "JavaScript", "CSS", "HTML"],
+    code: "https://github.com/parthdeshmukh2/CryptoVerse",
+    demo: "https://parth-crypto-app.netlify.app",
+    image: Crypto,
+  },
+ 
   {
     id: 2,
     projectName: "Tanishq",
@@ -56,16 +68,6 @@ export const projectsData = [
     demo: "https://frosty-meninsky-756a2b.netlify.app/",
     image: Weather,
   },
-  // {
-  //   id: 6,
-  //   projectName: "Weather-app",
-  //   projectDesc:
-  //     "It is my First React Project. This is a simple but fun way to keep track of your expenses with the help of Bar Graphs.",
-  //   tags: ["Google Aap", "JavaScript", "CSS", "HTML"],
-  //   code: "https://github.com/Balram088/weather-app",
-  //   demo: "https://app.netlify.com/sites/weather-app-balrampaidar/overview",
-  //   image: expense_image,
-  // },
  
 ];
 

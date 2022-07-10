@@ -5,18 +5,19 @@ import Weather from "../assets/svg/projects/Weather.png"
 import Hotstar from "../assets/svg/projects/Hotstar.png"
 import Netflix from "../assets/svg/projects/Netflix.png"
 import Crypto from "../assets/svg/projects/CryptoApp.png"
+import Gym from "../assets/svg/projects/Gym_App.png"
 
 export const projectsData = [
-  // {
-  //   id: 1,
-  //   projectName: "Tata 1mg",
-  //   projectDesc:
-  //     "This is a full-fledged clone of website Tata 1mg, I had tried to implement every possible feature of the website and provided the full payment cycle with login and signup authoristaion",
-  //   tags: ["HTML","Tailwind CSS","JavaScript", "Json Server", ],
-  //   code: "https://github.com/parthdeshmukh2/1Mg-Clone",
-  //   demo: "",
-  //   image: Tata_1mg,
-  // },
+  {
+    id: 1,
+    projectName: "Gym App",
+    projectDesc:
+      "Gym app is a fitness application, where user can find exercises of different body parts to keep himself healthy and fit.",
+    tags: ["React.js","Material UI","JavaScript", "HTML", "CSS" ],
+    code: "https://github.com/parthdeshmukh2/Golds-Gym",
+    demo: "https://parth-gym-app.netlify.app/",
+    image: Gym,
+  },
   {
     id: 6,
     projectName: "Crypto-App",
@@ -40,7 +41,7 @@ export const projectsData = [
   },
   {
     id: 3,
-    projectName: "Move App (Netflix)",
+    projectName: "Movie App (Netflix)",
     projectDesc:
       "Netflix, Inc. is an American subscription streaming service and production company. Launched on August 29, 1997, it offers a film and television series library through distribution deals as well as its own productions, known as Netflix Originals.",
     tags: ["HTML", "CSS", "JavaScript"],

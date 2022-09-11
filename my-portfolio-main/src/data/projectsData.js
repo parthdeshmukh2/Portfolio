@@ -6,10 +6,32 @@ import Hotstar from "../assets/svg/projects/Hotstar.png"
 import Netflix from "../assets/svg/projects/Netflix.png"
 import Crypto from "../assets/svg/projects/CryptoApp.png"
 import Gym from "../assets/svg/projects/Gym_App.png"
+import Zoomcar from "../assets/svg/projects/Zoomcar.png"
+import Bluemercury from "../assets/svg/projects/Bluemercury.png"
 
 export const projectsData = [
   {
     id: 1,
+    projectName: "Bluemercury",
+    projectDesc:
+      "Bluemercury is a chain of American beauty stores founded in 1999 by Marla Malcolm Beck and Barry Beck in Georgetown, Washington, D.C.",
+    tags: ["React.js","Redux","JavaScript", "Node.js" , " Express.js", "MongoDB", "HTML", "CSS", "Chakra UI" ],
+    code: "https://github.com/parthdeshmukh2/affable-scissors-7552",
+    demo: "https://affable-scissors-7552.vercel.app/",
+    image: Bluemercury,
+  },
+  {
+    id: 2,
+    projectName: "Zoomcar",
+    projectDesc:
+      "Zoomcar is an Indian car sharing platform, headquartered in Bangalore. The company was founded in 2013 by David Back and Greg Moran.",
+    tags: ["React.js","Redux","JavaScript", "Node.js" , " Express.js", "MongoDB", "HTML", "CSS", "Chakra UI" ],
+    code: "https://github.com/parthdeshmukh2/purring-root-8041",
+    demo: "https://sweet-trifle-273259.netlify.app/",
+    image: Zoomcar,
+  },
+  {
+    id: 3,
     projectName: "Gym App",
     projectDesc:
       "Gym app is a fitness application, where user can find exercises of different body parts to keep himself healthy and fit.",
@@ -19,7 +41,7 @@ export const projectsData = [
     image: Gym,
   },
   {
-    id: 6,
+    id: 4,
     projectName: "Crypto-App",
     projectDesc:
       "Cryptoverse is a cryptocurrency details app, where a user can find details of any cryptocurrency traded in the exchange. As well as user gets updates via news.",
@@ -30,17 +52,17 @@ export const projectsData = [
   },
  
   {
-    id: 2,
+    id: 5,
     projectName: "Tanishq",
     projectDesc:
       "This is a full-fledged clone of website Tanishq, I had tried to implement every possible feature of the website and provided the full payment cycle with login and signup authoristaion",
     tags: ["JavaScript", "CSS", "Bootstrap", "HTML"],
     code: "https://github.com/parthdeshmukh2/Tanishq",
-    demo: "https://heuristic-minsky-e408f0.netlify.app/",
+    demo: "https://lively-twilight-618570.netlify.app",
     image: Tanishq,
   },
   {
-    id: 3,
+    id: 6,
     projectName: "Movie App (Netflix)",
     projectDesc:
       "Netflix, Inc. is an American subscription streaming service and production company. Launched on August 29, 1997, it offers a film and television series library through distribution deals as well as its own productions, known as Netflix Originals.",
@@ -50,7 +72,7 @@ export const projectsData = [
     image: Netflix,
   },
   {
-    id: 4,
+    id: 7,
     projectName: "Movie App (Hotstar)",
     projectDesc:
       "Disney+ Hotstar (also known as Hotstar) is an Indian brand of subscription video on-demand over-the-top streaming service owned by Novi Digital Entertainment of Disney Star and operated by Disney Media and Entertainment Distribution.",
@@ -60,7 +82,7 @@ export const projectsData = [
     image: Hotstar,
   },
   {
-    id: 5,
+    id: 8,
     projectName: "Weather App",
     projectDesc:
       "Weather App is a weather forecasting web application. It allows users to see the conditions, forecast, temperature, and other related metrics of the device's current location, as well as a number of other cities.",

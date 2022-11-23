@@ -60,37 +60,38 @@ export const projectsData = [
     code: "https://github.com/parthdeshmukh2/Tanishq",
     demo: "https://lively-twilight-618570.netlify.app",
     image: Tanishq,
-  },
-  {
-    id: 6,
-    projectName: "Movie App (Netflix)",
-    projectDesc:
-      "Netflix, Inc. is an American subscription streaming service and production company. Launched on August 29, 1997, it offers a film and television series library through distribution deals as well as its own productions, known as Netflix Originals.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    code: "https://github.com/parthdeshmukh2/Movie-App-Netflix-",
-    demo: "https://priceless-ardinghelli-76ef4e.netlify.app/",
-    image: Netflix,
-  },
-  {
-    id: 7,
-    projectName: "Movie App (Hotstar)",
-    projectDesc:
-      "Disney+ Hotstar (also known as Hotstar) is an Indian brand of subscription video on-demand over-the-top streaming service owned by Novi Digital Entertainment of Disney Star and operated by Disney Media and Entertainment Distribution.",
-    tags: ["HTML", "CSS", "JavaScript"],
-    code: "https://github.com/parthdeshmukh2/Movie-App-Hotstar-",
-    demo: "https://compassionate-neumann-17df4e.netlify.app/",
-    image: Hotstar,
-  },
-  {
-    id: 8,
-    projectName: "Weather App",
-    projectDesc:
-      "Weather App is a weather forecasting web application. It allows users to see the conditions, forecast, temperature, and other related metrics of the device's current location, as well as a number of other cities.",
-    tags: ["React", "JavaScript", "CSS" ],
-    code: "https://github.com/parthdeshmukh2/Weather-App",
-    demo: "https://frosty-meninsky-756a2b.netlify.app/",
-    image: Weather,
-  },
+  }
+  //,
+  // {
+  //   id: 6,
+  //   projectName: "Movie App (Netflix)",
+  //   projectDesc:
+  //     "Netflix, Inc. is an American subscription streaming service and production company. Launched on August 29, 1997, it offers a film and television series library through distribution deals as well as its own productions, known as Netflix Originals.",
+  //   tags: ["HTML", "CSS", "JavaScript"],
+  //   code: "https://github.com/parthdeshmukh2/Movie-App-Netflix-",
+  //   demo: "https://priceless-ardinghelli-76ef4e.netlify.app/",
+  //   image: Netflix,
+  // },
+  // {
+  //   id: 7,
+  //   projectName: "Movie App (Hotstar)",
+  //   projectDesc:
+  //     "Disney+ Hotstar (also known as Hotstar) is an Indian brand of subscription video on-demand over-the-top streaming service owned by Novi Digital Entertainment of Disney Star and operated by Disney Media and Entertainment Distribution.",
+  //   tags: ["HTML", "CSS", "JavaScript"],
+  //   code: "https://github.com/parthdeshmukh2/Movie-App-Hotstar-",
+  //   demo: "https://compassionate-neumann-17df4e.netlify.app/",
+  //   image: Hotstar,
+  // },
+  // {
+  //   id: 8,
+  //   projectName: "Weather App",
+  //   projectDesc:
+  //     "Weather App is a weather forecasting web application. It allows users to see the conditions, forecast, temperature, and other related metrics of the device's current location, as well as a number of other cities.",
+  //   tags: ["React", "JavaScript", "CSS" ],
+  //   code: "https://github.com/parthdeshmukh2/Weather-App",
+  //   demo: "https://frosty-meninsky-756a2b.netlify.app/",
+  //   image: Weather,
+  // },
  
 ];
 

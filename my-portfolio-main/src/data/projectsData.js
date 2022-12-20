@@ -1,13 +1,12 @@
 import Tata_1mg from "../assets/svg/projects/Tata_1mg.png";
 
 import Tanishq from "../assets/svg/projects/Tanishq.png";
-import Weather from "../assets/svg/projects/Weather.png"
-import Hotstar from "../assets/svg/projects/Hotstar.png"
-import Netflix from "../assets/svg/projects/Netflix.png"
 import Crypto from "../assets/svg/projects/CryptoApp.png"
 import Gym from "../assets/svg/projects/Gym_App.png"
 import Zoomcar from "../assets/svg/projects/Zoomcar.png"
 import Bluemercury from "../assets/svg/projects/Bluemercury.png"
+import Ecomm from "../assets/svg/projects/e-comm.png"
+import SantoshWagh from "../assets/svg/projects/SantoshWagh.png"
 
 export const projectsData = [
   {
@@ -27,11 +26,31 @@ export const projectsData = [
       "Zoomcar is an Indian car sharing platform, headquartered in Bangalore. The company was founded in 2013 by David Back and Greg Moran.",
     tags: ["React.js","Redux","JavaScript", "Node.js" , " Express.js", "MongoDB", "HTML", "CSS", "Chakra UI" ],
     code: "https://github.com/parthdeshmukh2/purring-root-8041",
-    demo: "https://sweet-trifle-273259.netlify.app/",
+    demo: "https://purring-root-8041.vercel.app/",
     image: Zoomcar,
   },
   {
     id: 3,
+    projectName: "Mini E-Commerce Application",
+    projectDesc:
+      "Mini E-Commerce is a web application where you can buy headphones, earphones, and speakers at a very reasonable price",
+    tags: ["React.js","Redux","JavaScript", "Node.js" , " Express.js", "MongoDB", "HTML", "CSS", "Chakra UI" ],
+    code: "https://github.com/parthdeshmukh2/Mini-E-Commerce-Project",
+    demo: "https://mini-e-commerce-project.vercel.app/",
+    image: Ecomm,
+  },
+  {
+    id: 4,
+    projectName: "Portfolio Mr. Santosh Wagh",
+    projectDesc:
+      "Mr. Santosh Wagh is a Bodybuilder from Wardha Maharashtra. He has won 2 times Silver Medal in Mr. India",
+    tags: ["Reactjs", "Chakra UI", "JavaScript", "CSS", "HTML"],
+    code: "https://github.com/parthdeshmukh2/Santosh_Sir_Marathi_Tiger",
+    demo: "https://santosh-sir-marathi-tiger.vercel.app/",
+    image: SantoshWagh,
+  },
+  {
+    id: 5,
     projectName: "Gym App",
     projectDesc:
       "Gym app is a fitness application, where user can find exercises of different body parts to keep himself healthy and fit.",
@@ -41,7 +60,7 @@ export const projectsData = [
     image: Gym,
   },
   {
-    id: 4,
+    id: 6,
     projectName: "Crypto-App",
     projectDesc:
       "Cryptoverse is a cryptocurrency details app, where a user can find details of any cryptocurrency traded in the exchange. As well as user gets updates via news.",
@@ -50,15 +69,16 @@ export const projectsData = [
     demo: "https://parth-crypto-app.netlify.app",
     image: Crypto,
   },
+  
  
   {
-    id: 5,
+    id: 7,
     projectName: "Tanishq",
     projectDesc:
       "This is a full-fledged clone of website Tanishq, I had tried to implement every possible feature of the website and provided the full payment cycle with login and signup authoristaion",
     tags: ["JavaScript", "CSS", "Bootstrap", "HTML"],
     code: "https://github.com/parthdeshmukh2/Tanishq",
-    demo: "https://lively-twilight-618570.netlify.app",
+    demo: "https://tanishq-zeta.vercel.app/",
     image: Tanishq,
   }
   //,

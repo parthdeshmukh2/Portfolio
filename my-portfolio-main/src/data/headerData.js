@@ -1,4 +1,4 @@
-import resume from "../assets/pdf/parth2.pdf";
+import resume from "../assets/pdf/parth3.pdf";
 // import { pro_pic } from "./pro_pic";
 
 export const headerData = {

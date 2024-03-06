@@ -1,12 +1,12 @@
 import Tata_1mg from "../assets/svg/projects/Tata_1mg.png";
 
 import Tanishq from "../assets/svg/projects/Tanishq.png";
-import Crypto from "../assets/svg/projects/CryptoApp.png"
-import Gym from "../assets/svg/projects/Gym_App.png"
-import Zoomcar from "../assets/svg/projects/Zoomcar.png"
-import Bluemercury from "../assets/svg/projects/Bluemercury.png"
-import Ecomm from "../assets/svg/projects/e-comm.png"
-import SantoshWagh from "../assets/svg/projects/SantoshWagh.png"
+import Crypto from "../assets/svg/projects/CryptoApp.png";
+import Gym from "../assets/svg/projects/Gym_App.png";
+import Zoomcar from "../assets/svg/projects/Zoomcar.png";
+import Bluemercury from "../assets/svg/projects/Bluemercury.png";
+import Ecomm from "../assets/svg/projects/e-comm.png";
+import SantoshWagh from "../assets/svg/projects/SantoshWagh.png";
 
 export const projectsData = [
   {
@@ -14,7 +14,17 @@ export const projectsData = [
     projectName: "Bluemercury",
     projectDesc:
       "Bluemercury is a chain of American beauty stores founded in 1999 by Marla Malcolm Beck and Barry Beck in Georgetown, Washington, D.C.",
-    tags: ["React.js","Redux","JavaScript", "Node.js" , " Express.js", "MongoDB", "HTML", "CSS", "Chakra UI" ],
+    tags: [
+      "React.js",
+      "Redux",
+      "JavaScript",
+      "Node.js",
+      " Express.js",
+      "MongoDB",
+      "HTML",
+      "CSS",
+      "Chakra UI",
+    ],
     code: "https://github.com/parthdeshmukh2/affable-scissors-7552",
     demo: "https://affable-scissors-7552.vercel.app/",
     image: Bluemercury,
@@ -24,7 +34,17 @@ export const projectsData = [
     projectName: "Zoomcar",
     projectDesc:
       "Zoomcar is an Indian car sharing platform, headquartered in Bangalore. The company was founded in 2013 by David Back and Greg Moran.",
-    tags: ["React.js","Redux","JavaScript", "Node.js" , " Express.js", "MongoDB", "HTML", "CSS", "Chakra UI" ],
+    tags: [
+      "React.js",
+      "Redux",
+      "JavaScript",
+      "Node.js",
+      " Express.js",
+      "MongoDB",
+      "HTML",
+      "CSS",
+      "Chakra UI",
+    ],
     code: "https://github.com/parthdeshmukh2/purring-root-8041",
     demo: "https://purring-root-8041.vercel.app/",
     image: Zoomcar,
@@ -34,27 +54,27 @@ export const projectsData = [
     projectName: "Mini E-Commerce Application",
     projectDesc:
       "Mini E-Commerce is a web application where you can buy headphones, earphones, and speakers at a very reasonable price",
-    tags: ["React.js","Redux","JavaScript", "Node.js" , " Express.js", "MongoDB", "HTML", "CSS", "Chakra UI" ],
+    tags: [
+      "React.js",
+      "Redux",
+      "JavaScript",
+      "Node.js",
+      " Express.js",
+      "MongoDB",
+      "HTML",
+      "CSS",
+      "Chakra UI",
+    ],
     code: "https://github.com/parthdeshmukh2/Mini-E-Commerce-Project",
     demo: "https://mini-e-commerce-project.vercel.app/",
     image: Ecomm,
-  },
-  {
-    id: 4,
-    projectName: "Portfolio Mr. Santosh Wagh",
-    projectDesc:
-      "Mr. Santosh Wagh is a Bodybuilder from Wardha Maharashtra. He has won 2 times Silver Medal in Mr. India",
-    tags: ["Reactjs", "Chakra UI", "JavaScript", "CSS", "HTML"],
-    code: "https://github.com/parthdeshmukh2/Santosh_Sir_Marathi_Tiger",
-    demo: "https://santosh-sir-marathi-tiger.vercel.app/",
-    image: SantoshWagh,
   },
   {
     id: 5,
     projectName: "Gym App",
     projectDesc:
       "Gym app is a fitness application, where user can find exercises of different body parts to keep himself healthy and fit.",
-    tags: ["React.js","Material UI","JavaScript", "HTML", "CSS" ],
+    tags: ["React.js", "Material UI", "JavaScript", "HTML", "CSS"],
     code: "https://github.com/parthdeshmukh2/Golds-Gym",
     demo: "https://parth-gym-app.netlify.app/",
     image: Gym,
@@ -69,8 +89,7 @@ export const projectsData = [
     demo: "https://parth-crypto-app.netlify.app",
     image: Crypto,
   },
-  
- 
+
   {
     id: 7,
     projectName: "Tanishq",
@@ -80,7 +99,7 @@ export const projectsData = [
     code: "https://github.com/parthdeshmukh2/Tanishq",
     demo: "https://tanishq-zeta.vercel.app/",
     image: Tanishq,
-  }
+  },
   //,
   // {
   //   id: 6,
@@ -112,10 +131,7 @@ export const projectsData = [
   //   demo: "https://frosty-meninsky-756a2b.netlify.app/",
   //   image: Weather,
   // },
- 
 ];
 
 // Do not remove any fields.
 // Leave it blank instead as shown below
-
-

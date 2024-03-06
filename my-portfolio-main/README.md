@@ -1,5 +1,5 @@
 # my-portfolio
-# [Portfolio for Balram Patidar - Full Stack Web Developer]("https://my-portfolio-289tl57na-balram088.vercel.app/")
+# [Portfolio for Parth Deshmukh - Full Stack Web Developer]("https://my-portfolio-289tl57na-balram088.vercel.app/")
 - Portfolio designed for Full Stack Web Developer
 - Responsive for tablet and mobile screen
 - Smooth Scrolling Enabled
@@ -8,7 +8,7 @@
 - Socials can be Linked
 
 ## Live Demo
-[Balram Patidar---Click Here]("https://my-portfolio-289tl57na-balram088.vercel.app/")
+[Parth Deshmukh---Click Here]("https://my-portfolio-289tl57na-balram088.vercel.app/")
 
 ### How to Navigate through the Project
 - To run this application on your system you need to download the zip file of the code or clone the repositry using git clone.

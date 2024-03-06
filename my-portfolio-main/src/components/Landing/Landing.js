@@ -9,13 +9,7 @@ import { headerData } from "../../data/headerData";
 import { socialsData } from "../../data/socialsData";
 import proPic from "./img/parth.jpg";
 
-import {
-
-  FaLinkedin,
-  FaGithub,
-  FaTwitter,
-  
-} from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 
 function Landing() {
   const { theme, drawerOpen } = useContext(ThemeContext);
@@ -103,7 +97,6 @@ function Landing() {
                 />
               </a>
             )}
-           
           </div>
         </div>
         <img
@@ -134,10 +127,8 @@ function Landing() {
                 >
                   <Button
                     onClick={(e) => {
-                      // e.preventDefault();
-
                       window.open(
-                        "https://drive.google.com/file/d/1LTbE475nES_x4Vi6JP-zdD7njF_ZY2Rv/view?usp=share_link"
+                        "https://drive.google.com/file/d/1AQe6GsXBf4YgDQhRTSEoOCij2qMFSYqk/view?usp=sharing"
                       );
                     }}
                     className={classes.resumeBtn}

@@ -1,4 +1,4 @@
-import resume from "../assets/pdf/parth3.pdf";
+import resume from "../assets/pdf/parth_resume.pdf";
 // import { pro_pic } from "./pro_pic";
 
 export const headerData = {
@@ -9,5 +9,3 @@ export const headerData = {
   image: "",
   resumePdf: resume,
 };
-
-

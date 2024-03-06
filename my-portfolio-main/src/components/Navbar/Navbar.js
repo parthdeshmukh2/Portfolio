@@ -15,6 +15,7 @@ import "./Navbar.css";
 import { headerData } from "../../data/headerData";
 import { ThemeContext } from "../../contexts/ThemeContext";
 import CustomisedSwitch from "./CustomisedSwitch";
+import { HiDocumentText } from "react-icons/hi";
 function Navbar() {
   const { theme, setHandleDrawer } = useContext(ThemeContext);
 
@@ -205,7 +206,7 @@ function Navbar() {
               </NavLink>
             </Fade>
 
-            {/* <Fade left>
+            <Fade left>
               <NavLink to="/#resume" smooth={true} spy="true" duration={2000}>
                 <div className={classes.drawerItem}>
                   <HiDocumentText className={classes.drawerIcon} />
@@ -215,7 +216,7 @@ function Navbar() {
                       e.preventDefault();
 
                       window.open(
-                        "https://drive.google.com/file/d/1MHFoRv2KB3dpfOxIGYpXqszpDkd5HOJO/view?usp=sharing",
+                        "https://drive.google.com/file/d/1AQe6GsXBf4YgDQhRTSEoOCij2qMFSYqk/view?usp=drive_link",
                         "_blank"
                       );
                     }}
@@ -225,7 +226,21 @@ function Navbar() {
                   </span>
                 </div>
               </NavLink>
-            </Fade> */}
+            </Fade>
+
+            <Fade left>
+              <NavLink
+                to="/#experience"
+                smooth={true}
+                spy="true"
+                duration={2000}
+              >
+                <div className={classes.drawerItem}>
+                  <FaTools className={classes.drawerIcon} />
+                  <span className={classes.drawerLinks}>Experience</span>
+                </div>
+              </NavLink>
+            </Fade>
 
             <Fade left>
               <NavLink to="/#projects" smooth={true} spy="true" duration={2000}>
